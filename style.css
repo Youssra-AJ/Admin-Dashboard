@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+.sidebar-container {
+    height: 1200px;
+    width: 230px;
+    background-color: rgb(146, 49, 146);
+}
+
+.dashboard-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.dashboard-elements {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.profile, .messages, .history, .tasks, .communities {
+    margin-top: 18px;
+}
+
+.settings {
+    margin-top: 60px;
+}
+
+.support, .privacy {
+    margin-top: 18px;
+}
