@@ -3,9 +3,10 @@ body {
 }
 
 .sidebar-container {
-    height: 1200px;
+    height: 1000px;
     width: 230px;
-    background-color: rgb(146, 49, 146);
+    background-color: #C026D3;
+    position: absolute;
 }
 
 .dashboard-header {
@@ -13,9 +14,10 @@ body {
     font-size: 1.2rem;
     color: white;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    position: absolute;
+    
 }
 
 .dashboard-elements {
@@ -23,12 +25,95 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: white;
-    padding: 30px;
-    padding-left: 60px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 60px;
 }
 
-.profile, .messages, .history, .tasks, .communities {
+
+.dashboard-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.home,.profile, .messages, .history, .tasks, .communities {
     margin-top: 18px;
+    
+}
+
+.home-icon {
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+
+.profile-icon {
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+
+.messages-icon {
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+
+.history-icon {
+    position: absolute;
+    margin-top: 193px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+
+.tasks-icon {
+    position: absolute;
+    margin-top: 232px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+
+.communities-icon {
+    position: absolute;
+    margin-top: 271px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+
+.settings-icon {
+    position: absolute;
+    margin-top: 353px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+
+.support-icon {
+    position: absolute;
+    margin-top: 392px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+
+.privacy-icon {
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
 }
 
 .settings {
@@ -37,4 +122,43 @@ body {
 
 .support, .privacy {
     margin-top: 18px;
+}
+
+.header-container {
+    width: 1034px;
+    height: 170px;
+    background-color: white;
+    position: absolute;
+    margin-left: 230px;
+    margin-bottom: 1200px;
+    border-bottom: 3px solid rgb(215, 223, 226);;
+}
+
+#query {
+    background-color: rgb(215, 223, 226);
+    width: 400px;
+    height: 23px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+.admin-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 800px;
+}
+
+.admin-pfp {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-left: 740px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-top: 15px;
 }
