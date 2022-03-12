@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    position: absolute;
 }
 
 .sidebar-container {
@@ -126,7 +127,7 @@ body {
 
 .header-container {
     width: 1034px;
-    height: 133px;
+    height: 128px;
     background-color: white;
     position: absolute;
     margin-left: 230px;
@@ -251,4 +252,76 @@ button {
     position: absolute;
     margin-top: 90px;
     margin-left: 113px;
+}
+
+.container {
+    width: 1030px;
+    height: 867px;
+    padding: 0px;
+    background-color: rgb(215, 223, 226);;
+    margin-left: 230px;
+    margin-top: 130px;    
+}
+
+.projects {
+    height: 650px;
+    width: 640px;
+    margin-left: 20px;
+    margin-top: 60px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 20px;
+    
+}
+
+.announcements {
+    height: 300px;
+    width: 280px;
+    border: 1px solid black;
+    margin-left: 705px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.trending {
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+    margin-left: 705px;
+    margin-top: 460px;
+    position: absolute;
+}
+
+.project-items {
+    border: 1px solid black;
+    
+}
+
+.your-projects {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.announcements-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 705px;
+    margin-top: 25px;
+}
+
+.trending-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 705px;
+    margin-top: 420px;
 }
