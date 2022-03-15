@@ -174,7 +174,7 @@ body {
 .admin-pfp {
     height: 34px;
     width: 34px;
-    background-image: url(https://i.ibb.co/Mg9zXPz/cute-pfp-2.jpg);
+    background-image: url(cute-pfp-2.jpeg);
     background-size: 35px;
     position: absolute;
     margin-left: 740px;
@@ -227,7 +227,7 @@ button {
 .bigger-pfp {
     height: 55px;
     width: 55px;
-    background-image: url(https://i.ibb.co/Mg9zXPz/cute-pfp-2.jpg);
+    background-image: url(cute-pfp-2.jpeg);
     background-size: 54px;
     position: absolute;
     margin-left: 43px;
@@ -435,21 +435,21 @@ button {
 
 
 #cute-pfp-1 {
-    background-image: url(https://i.ibb.co/JsrBFVh/cute-pfp-1.jpg);
+    background-image: url(cute-pfp-1.jpeg);
     background-size: 43px;
 }
 
 #cute-pfp-2 {
-    background-image: url(https://i.ibb.co/6Jfy6qv/cute-pfp-5.jpg);
+    background-image: url(cute-pfp-5.jpeg);
     background-size: 48px;
 }
 
 #cute-pfp-3 {
-    background-image: url(https://i.ibb.co/mq6YQVP/cute-pfp-3.jpg);
+    background-image: url(cute-pfp-3.jpeg);
     background-size: 45px;
 }
 
 #cute-pfp-4 {
-    background-image: url(https://i.ibb.co/vdf2xWS/cute-pfp-4.jpg);
+    background-image: url(cute-pfp-4.jpeg);
     background-size: 48px;
 }
